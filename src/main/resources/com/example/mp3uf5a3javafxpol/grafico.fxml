@@ -5,10 +5,9 @@
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="450.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mp3uf5a3javafxpol.control.GraficoController">
    <children>
-      <BarChart fx:id="bchartPop" layoutX="60.0" layoutY="25.0">
+      <BarChart fx:id="bchartPop" layoutY="-1.0" prefHeight="450.0" prefWidth="620.0">
         <xAxis>
           <CategoryAxis side="BOTTOM" fx:id="xAxis" />
         </xAxis>

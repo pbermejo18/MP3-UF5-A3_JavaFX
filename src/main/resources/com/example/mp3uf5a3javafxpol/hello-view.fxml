@@ -27,11 +27,12 @@
       </MenuBar>
       <Label id="l1" fx:id="dateTime" layoutX="23.0" layoutY="51.0" prefHeight="26.0" prefWidth="104.0" text="Label" />
       <Label id="l2" fx:id="dateTimeDay" layoutX="461.0" layoutY="53.0" prefHeight="22.0" prefWidth="80.0" text="Label" />
-      <TableView id="tabbla" layoutX="127.0" layoutY="76.0" prefHeight="189.0" prefWidth="310.0">
+      <TableView id="tabbla" fx:id="table" layoutX="77.0" layoutY="87.0" prefHeight="190.0" prefWidth="410.0">
          <columns>
-            <TableColumn prefWidth="111.99993896484375" text="Dones" />
-            <TableColumn prefWidth="106.39990234375" text="Homes" />
-            <TableColumn prefWidth="134.39990234375" text="Total" />
+            <TableColumn id="column1" fx:id="mes" prefWidth="75.0" />
+            <TableColumn id="column2" fx:id="dones" prefWidth="111.99993896484375" text="Dones" />
+            <TableColumn id="column3" fx:id="homes" prefWidth="106.39990234375" text="Homes" />
+            <TableColumn id="column4" fx:id="total" prefWidth="134.39990234375" text="Total" />
          </columns>
       </TableView>
    </children>

@@ -37,6 +37,29 @@
     -fx-background-color: #1d1d1d;
 }
 
+#column1 {
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+#column2 {
+    -fx-background-color: #1d1d1d;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+#column3 {
+    -fx-background-color: #1d1d1d;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+#column4 {
+    -fx-background-color: #1d1d1d;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
 #tabbla .column-header {
     -fx-background-color: #999487;
 }
