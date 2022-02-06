@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="fondo_principal" fx:id="anchorPane" prefHeight="300.0" prefWidth="350.0" stylesheets="@default.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mp3uf5a3javafxpol.control.HelloController">
+   <children>
+      <MenuBar id="barra_menu" accessibleRole="CONTEXT_MENU" prefHeight="25.0" prefWidth="564.0">
+         <menus>
+            <Menu id="m1" mnemonicParsing="false" text="Gráfico">
+               <items>
+                  <MenuItem id="o1" mnemonicParsing="false" onAction="#handleShowGrafico" text="Ver gráfico" />
+               </items>
+            </Menu>
+            <Menu id="m2" mnemonicParsing="false" text="Estilo">
+               <items>
+                  <MenuItem id="o2" mnemonicParsing="false" onAction="#modeOscuro" text="Oscuro" />
+                  <MenuItem id="o3" mnemonicParsing="false" onAction="#modeClaro" text="Claro" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label id="l1" fx:id="dateTime" layoutX="23.0" layoutY="51.0" prefHeight="26.0" prefWidth="104.0" text="Label" />
+      <Label id="l2" fx:id="dateTimeDay" layoutX="461.0" layoutY="53.0" prefHeight="22.0" prefWidth="80.0" text="Label" />
+      <TableView id="tabbla" layoutX="127.0" layoutY="76.0" prefHeight="189.0" prefWidth="310.0">
+         <columns>
+            <TableColumn prefWidth="111.99993896484375" text="Dones" />
+            <TableColumn prefWidth="106.39990234375" text="Homes" />
+            <TableColumn prefWidth="134.39990234375" text="Total" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

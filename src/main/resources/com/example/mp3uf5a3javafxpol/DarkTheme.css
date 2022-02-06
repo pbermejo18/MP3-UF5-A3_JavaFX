@@ -1,0 +1,56 @@
+#fondo_principal {
+    -fx-background-color: #000000;
+}
+
+#l1 {
+    -fx-text-fill: white;
+}
+#l2 {
+    -fx-text-fill: white;
+}
+
+#barra_menu {
+    -fx-background-color: #1d1d1d;
+
+}
+
+#o1 {
+    -fx-background-color: #1d1d1d;
+}
+
+#o2 {
+    -fx-background-color: #1d1d1d;
+}
+
+#o3 {
+    -fx-background-color: #1d1d1d;
+}
+.menu-bar .label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.9;
+}
+
+#tabbla {
+    -fx-background-color: #1d1d1d;
+}
+
+#tabbla .column-header {
+    -fx-background-color: #999487;
+}
+
+#tabbla .column-header .label {
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.table-view .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
